@@ -24,7 +24,21 @@ I'm 27 years old, and I'm RS-School student with a great interest in web develop
 
 ---
 ### CODE EXAMPLE
+RGB To Hex Conversion from Code Wars
+```
+function rgb(r, g, b) {
+  
+  return inHex(r)+inHex(g)+inHex(b)
+}
 
+function inHex(num){
+  if (num >= 255) return "FF";
+  if (num<=0) return '00';
+  let res = num.toString(16);
+    res.length < 2 ? res = '0'+ num.toString(16).toUpperCase() :res = num.toString(16).toUpperCase()
+    return res                    
+}
+```
 
 ---
 
