@@ -19,7 +19,6 @@ I'm 27 years old, and I'm RS-School student with a great interest in web develop
 * CSS 
 * JavaScript
 * GIT / GitHub  
-* Visual Studio, Visual Studio Code
 * Mac OS, Linux(Ubuntu)
 
 ---
